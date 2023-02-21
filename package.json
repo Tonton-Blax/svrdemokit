@@ -2,7 +2,6 @@
 	"name": "sveltekit-azure-swa-demo",
 	"version": "0.1.0",
 	"scripts": {
-		"prepare": "cd .. && npm i",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -15,13 +14,13 @@
 		"@neoconfetti/svelte": "^1.0.0",
 		"@playwright/test": "^1.30.0",
 		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "^1.5.6",
+		"@sveltejs/kit": "^1.8.3",
 		"@types/cookie": "^0.5.1",
 		"svelte": "^3.55.1",
-		"svelte-adapter-azure-swa": "file:..",
+		"svelte-adapter-azure-swa": "^0.13.0",
 		"svelte-check": "^3.0.3",
 		"typescript": "^4.9.5",
-		"vite": "^4.1.1"
+		"vite": "^4.1.3"
 	},
 	"type": "module"
 }
